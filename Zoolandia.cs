@@ -6,6 +6,7 @@ namespace Zoolandia {
         public string name  { get; set; }
         public string height { get; set; }
         public string weight { get; set; }
+        public string commonName { get; set; }
 
         public virtual void hunting()
         {

@@ -2,7 +2,7 @@ using System;
 
 namespace Zoolandia 
 {
-    class Bird : Animal 
+    class AixSponsa : Animal 
     {
         public void tweet()
             {

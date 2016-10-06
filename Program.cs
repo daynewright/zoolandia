@@ -5,32 +5,35 @@ namespace Zoolandia
     {
         public static void Main(string[] args)
         {
-            Zoolandia.Dog dog = new Zoolandia.Dog
+            Zoolandia.CLupus dog = new Zoolandia.CLupus()
             {
                 name = "Fluffy",
                 height = "5 inches",
-                weight = "50 lbs"
+                weight = "50 lbs",
+                commonName = "dog"
             };      
 
             dog.bark();
 
-            Zoolandia.Bird bird = new Zoolandia.Bird()
+            Zoolandia.AixSponsa bird = new Zoolandia.AixSponsa()
             {
                 name = "Tweety",
                 height ="tiny",
-                weight = "5 ounces"
+                weight = "5 ounces",
+                commonName = "wood duck"
             };
 
             bird.tweet();
 
-            Zoolandia.Monkey monkey = new Zoolandia.Monkey()
+            Zoolandia.Mandrill monkey = new Zoolandia.Mandrill()
             {
                 name = "Bob",
                 height = "4 feet",
-                weight = "30lbs"
+                weight = "30lbs",
+                commonName = "monkey"
             };
 
-            monkey.eatBanana();
+            monkey.talk();
         }
     }
 }
