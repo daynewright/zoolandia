@@ -10,7 +10,7 @@ namespace Zoolandia {
 
         public virtual void eating (string food)
         {
-            Console.WriteLine("{this.commonName} is eating {food}" );
+            Console.WriteLine($"{this.commonName} is eating {food}" );
         }
 
         public static void sleep ()
