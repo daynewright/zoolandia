@@ -14,6 +14,7 @@ namespace Zoolandia
             };      
 
             dog.bark();
+            dog.eating("a bone");
 
             Zoolandia.AixSponsa bird = new Zoolandia.AixSponsa()
             {
@@ -24,6 +25,7 @@ namespace Zoolandia
             };
 
             bird.tweet();
+            bird.eating("bird seed");
 
             Zoolandia.Mandrill monkey = new Zoolandia.Mandrill()
             {
@@ -34,6 +36,7 @@ namespace Zoolandia
             };
 
             monkey.talk();
+            monkey.eating("banana");
         }
     }
 }

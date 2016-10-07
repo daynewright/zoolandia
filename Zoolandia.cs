@@ -8,9 +8,9 @@ namespace Zoolandia {
         public string weight { get; set; }
         public string commonName { get; set; }
 
-        public virtual void hunting()
+        public virtual void eating (string food)
         {
-            Console.WriteLine("Animal is now searching for food");
+            Console.WriteLine("{this.commonName} is eating {food}" );
         }
 
         public static void sleep ()
