@@ -27,12 +27,11 @@ namespace Zoolandia
             bird.tweet();
             bird.eating("bird seed");
 
-            Zoolandia.Mandrill monkey = new Zoolandia.Mandrill()
+            Zoolandia.Mandrill monkey = new Zoolandia.Mandrill("monkey")
             {
                 name = "Bob",
                 height = "4 feet",
                 weight = "30lbs",
-                commonName = "monkey"
             };
 
             monkey.talk();

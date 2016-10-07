@@ -14,6 +14,12 @@ namespace Zoolandia
         {
             Console.WriteLine($"The {this.commonName} (Mandrill) is eating {food}.");
         }
+
+        public Mandrill(string name)
+        {
+            this.commonName = name;
+        }
+
     }
 
 }
