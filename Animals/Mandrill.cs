@@ -16,13 +16,19 @@ namespace Zoolandia
             Console.WriteLine($"The {this.commonName} (Mandrill) is eating {food}.");
         }
 
-        public Mandrill(string name)
+        public Mandrill(string commonName)
         {
-            this.commonName = name;
+            this.commonName = commonName;
         }
 
         public Mandrill(int legs)
         {
+            this.legs = legs;
+        }
+
+        public Mandrill(string name, int legs)
+        {
+            this.name = name;
             this.legs = legs;
         }
     }
