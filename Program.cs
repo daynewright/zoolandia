@@ -10,7 +10,8 @@ namespace Zoolandia
                 name = "Fluffy",
                 height = "5 inches",
                 weight = "50 lbs",
-                commonName = "dog"
+                commonName = "dog",
+                legs = 4
             };      
 
             dog.bark();
@@ -21,7 +22,8 @@ namespace Zoolandia
                 name = "Tweety",
                 height ="tiny",
                 weight = "5 ounces",
-                commonName = "wood duck"
+                commonName = "wood duck",
+                legs = 2
             };
 
             bird.tweet();
@@ -32,10 +34,22 @@ namespace Zoolandia
                 name = "Bob",
                 height = "4 feet",
                 weight = "30lbs",
+                legs = 2
             };
 
             monkey.talk();
             monkey.eating("banana");
+
+            Zoolandia.Mandrill monkey4legs = new Zoolandia.Mandrill(4)
+            {
+                name = "4 Leg Tom",
+                height = "3 feet",
+                weight = "25lbs",
+                commonName = "monkey"
+            };
+
+            monkey4legs.talk();
+            monkey4legs.eating("popcorn");
         }
     }
 }

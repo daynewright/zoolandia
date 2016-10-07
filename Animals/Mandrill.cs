@@ -8,6 +8,7 @@ namespace Zoolandia
         public void talk ()
         {
             Console.WriteLine($"{this.name} the {this.commonName} just said Ooo,Ooo,Ahh,Ahh!");
+            Console.WriteLine($"{this.name} has {this.legs} legs.");
         } 
 
         public override void eating(string food)
@@ -20,6 +21,10 @@ namespace Zoolandia
             this.commonName = name;
         }
 
+        public Mandrill(int legs)
+        {
+            this.legs = legs;
+        }
     }
 
 }
