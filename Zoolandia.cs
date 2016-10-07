@@ -6,6 +6,12 @@ namespace Zoolandia {
         public string name  { get; set; }
         public string height { get; set; }
         public string weight { get; set; }
+        public string commonName { get; set; }
+
+        public virtual void eating (string food)
+        {
+            Console.WriteLine($"{this.commonName} is eating {food}" );
+        }
 
         public static void sleep ()
         {
@@ -13,29 +19,4 @@ namespace Zoolandia {
         }
 
     }
-
-    public class Monkey: Animal
-    {
-        public void eatBanana ()
-        {
-            Console.WriteLine($"{this.name} the monkey just ate a banana.");
-        } 
-    }
-
-    public class Dog: Animal 
-    {
-        public void bark()
-        {
-            Console.WriteLine($"{this.name} the dog said WOOF! WOOF!");
-        }
-    }
-
-    public class Bird: Animal
-    {
-        public void tweet()
-        {
-            Console.WriteLine($"{this.name} the bird said TWEET! TWEET!");
-        }
-    }
-
 }
