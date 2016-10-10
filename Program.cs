@@ -1,4 +1,5 @@
 ﻿using System;
+using Zoolandia.Animals;
 
 
 namespace Zoolandia
@@ -69,9 +70,16 @@ namespace Zoolandia
             monkeyNext.talk();
             monkeyNext.eating("popcorn");
             monkeyNext.sleep();
+            Console.WriteLine("\n");
+
 
             DicerosBicornis rhino = new DicerosBicornis();
             rhino.sleep();
+            Console.WriteLine("\n");
+
+
+            PantheraOnca jaguar = new PantheraOnca();
+            jaguar.sleep(8);
 
         }
     }
