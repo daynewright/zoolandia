@@ -2,7 +2,7 @@ using System;
 
 namespace Zoolandia.Animals
 {
-    class PantheraOnca : Animal
+    class PantheraOnca : Panthera
     {
         string scientificName = "PantheraOnca";
         public PantheraOnca()
