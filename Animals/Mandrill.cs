@@ -23,6 +23,7 @@ namespace Zoolandia
 
         public Mandrill(int legs)
         {
+            this.commonName = "Monkey";
             this.legs = legs;
         }
 
