@@ -2,9 +2,9 @@ using System;
 
 namespace Zoolandia.Animals
 {
-    class AixSponsa : Animal 
+    class AixSponsa : Aix 
     {
-        public void tweet()
+        public override void tweet()
             {
                 Console.WriteLine($"{this.name} the bird said TWEET! TWEET!");
             }

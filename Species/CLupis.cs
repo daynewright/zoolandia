@@ -2,7 +2,7 @@ using System;
 
 namespace Zoolandia.Animals
 {
-    class CLupus : Animal
+    class CLupus : Canis
     {
         public void bark()
         {

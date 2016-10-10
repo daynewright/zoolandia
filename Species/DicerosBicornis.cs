@@ -2,7 +2,7 @@ using System;
 
 namespace Zoolandia.Animals 
 {
-    class DicerosBicornis : Animal
+    class DicerosBicornis : Diceros
     {
         string scientificName = "Diceros Bicornis";
         public DicerosBicornis(){

@@ -2,7 +2,7 @@ using System;
 
 namespace Zoolandia.Animals
 {
-    class Spheniscidae : Animal
+    class Spheniscidae : Aptenodytes
     {
         string scientificName = "Spheniscidae";
         public Spheniscidae()
