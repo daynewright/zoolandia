@@ -4,11 +4,11 @@ namespace Zoolandia
 {
     class PantheraOnca : Animal
     {
-        new string commonName = "Jaguar";
-        private string scientificName = "PantheraOnca";
+        string scientificName = "PantheraOnca";
         public PantheraOnca()
         {
-            Console.WriteLine($"{commonName}");
+            this.commonName = "Jaguar";
+            Console.WriteLine($"{this.commonName}, {this.scientificName}");
         }
     }
 }

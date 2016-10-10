@@ -4,10 +4,15 @@ namespace Zoolandia
 {
     class DicerosBicornis : Animal
     {
-        new string commonName = "Black Rino";
-        private string scientificName = "Diceros Bicornis";
+        string scientificName = "Diceros Bicornis";
         public DicerosBicornis(){
-            Console.WriteLine($"{commonName}");
+            this.commonName = "Black Rino";
+            Console.WriteLine($"\n {this.commonName}, {this.scientificName}");
+        }
+
+        public override void sleep()
+        {
+            Console.WriteLine($"{this.commonName} is currently sleeping.");
         }
     }
 }

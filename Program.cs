@@ -7,7 +7,7 @@ namespace Zoolandia
     {
         public static void Main(string[] args)
         {
-            Zoolandia.CLupus dog = new Zoolandia.CLupus()
+            CLupus dog = new CLupus()
             {
                 name = "Fluffy",
                 height = "5 inches",
@@ -20,7 +20,7 @@ namespace Zoolandia
             dog.eating("a bone");
             Console.WriteLine("\n");
 
-            Zoolandia.AixSponsa bird = new Zoolandia.AixSponsa()
+            AixSponsa bird = new AixSponsa()
             {
                 name = "Tweety",
                 height ="tiny",
@@ -33,7 +33,7 @@ namespace Zoolandia
             bird.eating("bird seed");
             Console.WriteLine("\n");
 
-            Zoolandia.Mandrill monkey = new Zoolandia.Mandrill("monkey")
+            Mandrill monkey = new Mandrill("monkey")
             {
                 name = "Bob",
                 height = "4 feet",
@@ -46,7 +46,7 @@ namespace Zoolandia
             Console.WriteLine("\n");
 
 
-            Zoolandia.Mandrill monkey4legs = new Zoolandia.Mandrill(4)
+            Mandrill monkey4legs = new Mandrill(4)
             {
                 name = "Tom",
                 height = "3 feet",
@@ -59,7 +59,7 @@ namespace Zoolandia
             Console.WriteLine("\n");
 
 
-            Zoolandia.Mandrill monkeyNext = new Zoolandia.Mandrill("Luke", 6)
+            Mandrill monkeyNext = new Mandrill("Luke", 6)
             {
                 height = "3 feet",
                 weight = "25lbs",
@@ -68,6 +68,11 @@ namespace Zoolandia
 
             monkeyNext.talk();
             monkeyNext.eating("popcorn");
+            monkeyNext.sleep();
+
+            DicerosBicornis rhino = new DicerosBicornis();
+            rhino.sleep();
+
         }
     }
 }

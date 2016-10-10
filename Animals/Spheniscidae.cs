@@ -4,11 +4,16 @@ namespace Zoolandia
 {
     class Spheniscidae : Animal
     {
-        new string commonName = "Penguin";
-        private string scientificName = "Spheniscidae";
+        string scientificName = "Spheniscidae";
         public Spheniscidae()
         {
-            Console.WriteLine($"{commonName}");
+            this.commonName = "Penguin";
+            Console.WriteLine($"{this.commonName}, {this.scientificName}");
+        }
+
+        public override void sleep()
+        {
+            Console.WriteLine($"{this.commonName} is currently sleeping.");
         }
     }
 }
