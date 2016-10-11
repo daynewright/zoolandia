@@ -3,8 +3,9 @@ using System;
 
 namespace Zoolandia.Animals 
 {
-    public class Mandrill : Mandrillus 
+    public class Mandrill : Animal 
     {
+        public Mandrillus Genus = new Mandrillus();
         public void talk ()
         {
             Console.WriteLine($"{this.name} the {this.commonName} just said Ooo,Ooo,Ahh,Ahh!");
