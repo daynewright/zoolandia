@@ -2,8 +2,9 @@ using System;
 
 namespace Zoolandia.Animals 
 {
-    class DicerosBicornis : Diceros
+    class DicerosBicornis : Animal
     {
+        public Diceros Genus = new Diceros();
         string scientificName = "Diceros Bicornis";
         public DicerosBicornis(){
             this.commonName = "Black Rino";

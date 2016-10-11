@@ -2,8 +2,10 @@ using System;
 
 namespace Zoolandia.Animals
 {
-    class CLupus : Canis
+    class CLupus : Animal
     {
+        public Canis Genus = new Canis();
+
         public void bark()
         {
             Console.WriteLine($"{this.name} the {this.commonName} said WOOF! WOOF!");

@@ -30,6 +30,7 @@ namespace Zoolandia
                 legs = 2
             };
 
+            bird.Genus.tweet(bird.name);
             bird.tweet();
             bird.eating("bird seed");
             Console.WriteLine("\n");
@@ -80,7 +81,9 @@ namespace Zoolandia
 
             PantheraOnca jaguar = new PantheraOnca();
             jaguar.sleep(8);
+            Console.WriteLine("\n");
 
+            Spheniscidae penguin = new Spheniscidae();
         }
     }
 }
